@@ -1,10 +1,22 @@
-/* Laufband */
-#laufband_background {
+#Laufband_background {
 	position: fixed;
+	width: 200px;
+	height: 700px;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
+	margin: auto;
+	overflow: hidden;
 	
-	background_color: grey;
+	background-color: gray;
 }
+#Laufband {
+	position: relative;
+	width: 200px;
+	height: 15000px;
+	
+	background-color: lightgrey;
+	
+}
+	
